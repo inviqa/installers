@@ -27,5 +27,6 @@
     },
     "require-dev": {
         "composer/composer": "*"
-    }
+    },
+	"minimum-stability": "dev"
 }
