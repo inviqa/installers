@@ -12,19 +12,20 @@ class Installer extends LibraryInstaller
      * @var array
      */
     private $supportedTypes = array(
-        'cakephp'     => 'CakePHPInstaller',
-        'codeigniter' => 'CodeIgniterInstaller',
-        'drupal'      => 'DrupalInstaller',
-        'fuelphp'     => 'FuelPHPInstaller',
-        'joomla'      => 'JoomlaInstaller',
-        'laravel'     => 'LaravelInstaller',
-        'lithium'     => 'LithiumInstaller',
-        'magento'     => 'MagentoInstaller',
-        'phpbb'       => 'PhpBBInstaller',
-        'ppi'         => 'PPIInstaller',
-        'symfony1'    => 'Symfony1Installer',
-        'wordpress'   => 'WordPressInstaller',
-        'zend'        => 'ZendInstaller',
+        'cakephp'      => 'CakePHPInstaller',
+        'codeigniter'  => 'CodeIgniterInstaller',
+        'drupal'       => 'DrupalInstaller',
+        'fuelphp'      => 'FuelPHPInstaller',
+        'joomla'       => 'JoomlaInstaller',
+        'laravel'      => 'LaravelInstaller',
+        'lithium'      => 'LithiumInstaller',
+        'magento'      => 'MagentoInstaller',
+        'phpbb'        => 'PhpBBInstaller',
+        'ppi'          => 'PPIInstaller',
+		'silverstripe' => 'SilverStripeInstaller',
+        'symfony1'     => 'Symfony1Installer',
+        'wordpress'    => 'WordPressInstaller',
+        'zend'         => 'ZendInstaller',
     );
 
     /**
